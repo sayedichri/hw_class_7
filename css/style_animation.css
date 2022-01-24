@@ -1,0 +1,104 @@
+.div-one{
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: goldenrod;
+    animation-name: ichri;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes ichri {
+    0%{
+        background-image: url("../img/natural.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+   50%{
+       background-image: url("../img/2102328.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+   100%{
+       background-image: url("../img/feat_30d48d6e-7b84-4dfe-bf22-6306f8a2d403.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+}
+
+/*!*for infinity loop start *!*/
+/*@keyframes ichri {*/
+/*    0% {*/
+/*        background-color: aqua;*/
+/*        transform: rotate(0deg) scale(1);*/
+
+/*    }*/
+/*    50% {*/
+/*        background-color: cornflowerblue;*/
+/*        transform: rotate(360deg) scale(1.5);*/
+/*    }*/
+/*    100% {*/
+/*        background-color: red;*/
+/*        transform: rotate(0deg) scale(1);*/
+/*    }*/
+
+/*}*/
+/*for infinity loop end */
+
+/*for different size HW use start */
+
+/*@keyframes ichri {*/
+/*    0%{*/
+/*        background-color: aqua;*/
+/*        height: 300px;*/
+/*        width: 500px;*/
+/*    }*/
+/*    25%{ background-color: black;*/
+/*        height: 400px;*/
+/*        width: 600px;*/
+/*    }*/
+/*    50%{ background-color: cornflowerblue;*/
+/*        height: 500px;*/
+/*        width: 700px;*/
+/*    }*/
+/*    75%{background-color: blue;*/
+/*        height: 500px;*/
+/*        width: 800px;*/
+/*    }*/
+/*    100%{ background-color: red;*/
+/*        height: 600px;*/
+/*        width: 900px;*/
+/*    }*/
+/*for different size HW use end */
+
+/*for  percentage HW use start */
+
+/*@keyframes ichri {*/
+/*    0%{ background-color: aqua;}*/
+/*    50%{ background-color: cornflowerblue;}*/
+/*    100%{ background-color: red;}*/
+
+/*}*/
+/*for  percentage HW use end */
+
+
+/*for  background use start */
+/*@keyframes ichri {*/
+/*    from{*/
+/*        background-color: aqua;*/
+/*    }*/
+
+/*    to{*/
+/*        background-color: cornflowerblue;*/
+/*    }*/
+
+
+/*}*/
+/*for  background use end */
